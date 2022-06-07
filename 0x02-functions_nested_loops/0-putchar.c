@@ -10,7 +10,7 @@
 int main(void)
 {
 	int n = 0;
-	char put_char[8] = "_puchar";
+	char put_char[8] = "_putchar";
 
 	while (n < 8)
 	{
