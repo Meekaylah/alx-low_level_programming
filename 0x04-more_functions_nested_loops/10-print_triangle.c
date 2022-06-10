@@ -12,15 +12,18 @@ void print_triangle(int size)
 
 	if (size > 0)
 	{
-		for (row = 0; col < size; col++)
+		for (row = 0; row < size; row++)
 		{
-			star = (size - row) - 1;
-			if (col < star)
-				_putchar(' ');
-			else
-				_putchar(35);
+			for (col = 0; col < size; col++)
+			{
+				star = (size - row) - 1;
+				if (col < star)
+					_putchar(' ');
+				else
+					_putchar(35);
+			}
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 	else
 		_putchar('\n');
