@@ -29,9 +29,9 @@ void print_buffer(char *b, int size)
 		for (; j < 10; j++)
 		{
 			if (!(j % 2))
-				printf(" ");
+				printf("  ");
 			else
-				printf(" ");
+				printf("  ");
 		}
 		for (j = 0; j < r; j++)
 			printf("%c", b[i + j] < 32 ? '.' : b[i + j]);
