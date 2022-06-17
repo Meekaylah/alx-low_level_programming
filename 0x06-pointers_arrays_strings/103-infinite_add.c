@@ -9,17 +9,17 @@
  *
  * Return: Pointer to the result of the string
  */
-char *infinite_add(char *n1, char *n2, char *r, int n)
+char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int len1 = 0, len2 = 0;
 	int add = 0;
-	int i = n - 2;
+	int i = size_r - 2;
 
 	while (n1[len1 + 1] != 0)
 		len1++;
 	while (n2[len2 + 1] != 0)
 		len2++;
-	r[n - 1] = 0;
+	r[size_r - 1] = 0;
 
 	while (i >= 0 && (len1 >= 0 || len2 >= 0))
 	{
