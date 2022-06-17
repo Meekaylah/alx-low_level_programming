@@ -5,7 +5,7 @@
  * @n1: Pointer to the first character of number 1
  * @n2: Pointer to the first character of number 2
  * @r: Buffer where to write the result
- * @n: Buffer size
+ * @size_r: Buffer size
  *
  * Return: Pointer to the result of the string
  */
