@@ -31,7 +31,7 @@ void print_buffer(char *b, int size)
 			if (!(j % 2))
 				printf("  ");
 			else
-				printf("  ");
+				printf("   ");
 		}
 		for (j = 0; j < r; j++)
 			printf("%c", b[i + j] < 32 ? '.' : b[i + j]);
