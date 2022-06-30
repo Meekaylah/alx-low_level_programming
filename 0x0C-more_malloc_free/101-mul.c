@@ -27,11 +27,11 @@ int is_digit(char *s)
  *
  * Return: the length of the string
  */
-int _strlen(char *s)
+int _strlen(char *mul)
 {
 	int i = 0;
 
-	while (s[i] != '\0')
+	while (mul[i] != '\0')
 	{
 		i++;
 	}
@@ -72,7 +72,7 @@ int main(int argc, char *argv[])
 		mul[i] = 0;
 	for (len1 = len1 - 1; len1 >= 0; len1--)
 	{
-	 	digit1 = num1[len1] - '0';
+		digit1 = num1[len1] - '0';
 		carry = 0;
 		for (len2 = _strlen(num2) - 1; len2 >= 0; len2--)
 		{
