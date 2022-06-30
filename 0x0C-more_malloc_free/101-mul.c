@@ -27,11 +27,11 @@ int is_digit(char *s)
  *
  * Return: the length of the string
  */
-int _strlen(char *mul)
+int _strlen(char *s)
 {
 	int i = 0;
 
-	while (mul[i] != '\0')
+	while (s[i] != '\0')
 	{
 		i++;
 	}
