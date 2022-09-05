@@ -1,1 +1,3 @@
-This is a readme for 0x09-static_libraries
+# C - Static libraries
+
+**Focus**: The project teaches about the creation and usages of static libraries in C.
